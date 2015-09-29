@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>HOME PAGE</title>
+<style>
+body {
+      background-color:#aaaccc;
+	 
+}
+
+#home {
+	background-image:url("iiit1.jpg");
+        background-color:#93f;
+	text-shadow: 2px 2px orange;
+	text-align: center;
+}
+#college {
+	text-shadow: 2px 2px orange;
+	text-align: center;
+}
+#center {
+	width:500px;
+	height:600px;
+	float:left;
+	background-color:cyan;
+}
+.frame2 {
+	width:800px;
+	height:500px;
+	float:right;
+}
+#profile {
+	float:right;
+}
+#iiitv {
+	float:center;
+	margin:right;
+}
+
+a:link {
+    color: magnet;
+}
+a:visited {
+    color: blue;
+}
+a:hover {
+    color: green;
+}
+a:active {
+    color: orange;
+}
+</style>
+</head>
+<body>
+<div id="home">
+<h1 >HOME PAGE</h1>
+<table cellspacing="20px">
+<tbody >
+<tr >
+<th><a href="myhomepage.html" target="_blank">HOME</a></th>
+<th><a href="frame_1.html" target="_blank">Contact Details</a></th>
+<th><a href="image.html" target="_blank">Images</a></th>			<!--add-->
+<th><a href="thought.html" target="_blank">Thoughts</a></th>			<!--add-->
+</tr>
+</tbody>
+</table>
+</div>
+<marquee width="300" behavior="alternate">
+<font color="red">ANIL KUMAR</br>
+ID-201452033.
+</font>
+</marquee>
+<div id="center">
+<ul>
+
+<li>Contact Me</li>
+
+&nbsp;
+<ul>
+
+<li><a href="mailto:anilrajverma1996@gmail.com">Email Id</a></li>&nbsp;
+
+<li><a href="www.facebook.com/profile.php?id=100004524541360" target="_blank">Facebook</a></li>
+&nbsp;
+				<!--add-->
+<li><a href="www.twitter.com/anilrajverma199?lang=en"  target="_blank">Twitter</a></li>
+</ul>&nbsp;			<!--add-->
+
+
+<li><a href="www.google.co.in/maps/place/faizabad,+utter+pradesh/@34.9567484,72.4691423,4z/data=!4m2!3m1!1s0x399a0610a9258393:0xc9fa91ca68051ca8" target="_blank">My HomeTown Location</a></li> 
+
+&nbsp;
+
+<h3>ABOUT MY COLLEGE</h3>
+<li><a href="www.iiitvadodara.ac.in"  target="_blank"><abbr title="INDIAN INSTITUTE OF INFORMATION TECHNOLOGY_VADODARA">IIITV</abbr></a></li>
+<img id="iiitv" src="iiit.jpg" alt="error" align="center" width="100" height="100"/>
+</div>										<!--add location-->
+<div class="frame2">
+<h3>ABOUT ME</h3>
+<figure>
+<img id="profile" src="profile.jpg" alt="error" align="center" width="400" height="533"/>
+</figure>
+</div>
+<body>
+<html>
